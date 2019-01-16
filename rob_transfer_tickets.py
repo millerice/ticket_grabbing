@@ -111,7 +111,7 @@ class RobTickets(object):
 	                    # print(train_number)
 	                    if left_ticket == "有" or left_ticket.isdigit():
 	                    	MASK_LOOP = False
-                            print("太好了，终于抢到了！")
+                                print("太好了，终于抢到了！")
 	                        orderBtn = tr.find_element_by_class_name("btn72")
 	                        orderBtn.click()
 	                        # 等待是否来到了乘客页面
